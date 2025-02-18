@@ -41,6 +41,8 @@ mise use -g dotnet@8
 
 set -Ux STARSHIP_CONFIG ~/.config/starship/starship.toml
 
+npm -g install pnpm
+
 fish_update_completions
 
 stow git
