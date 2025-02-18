@@ -1,0 +1,18 @@
+# This is Git's per-user configuration file.
+[user]
+# Please adapt and uncomment the following lines:
+name = Keith LaForce 
+email = keith.laforce@leaflink.com 
+[init]
+	defaultBranch = main
+[color]
+	ui = auto
+	diff = auto
+	status = auto
+	branch = auto
+[pull]
+	rebase = true
+[alias]
+	lg = log --oneline --graph --decorate --all
+[core]
+	editor = vim
